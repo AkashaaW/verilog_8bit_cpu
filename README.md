@@ -1,4 +1,4 @@
-\# Verilog 8-bit CPU
+# Verilog 8-bit CPU
 
 
 
@@ -6,7 +6,7 @@ A simple 8-bit CPU designed from scratch in Verilog HDL, built module by module 
 
 
 
-\## Status
+## Status
 
 
 
@@ -14,21 +14,21 @@ Work in progress. Modules are implemented and verified one at a time.
 
 
 
-\- \[ ] ALU (`rtl/alu.v`)
+- \[ ] ALU (`rtl/alu.v`)
 
-\- \[ ] Register file (`rtl/register\_file.v`)
+- \[ ] Register file (`rtl/register\_file.v`)
 
-\- \[ ] Program counter (`rtl/program\_counter.v`)
+- \[ ] Program counter (`rtl/program\_counter.v`)
 
-\- \[ ] Control unit (`rtl/control\_unit.v`)
+- \[ ] Control unit (`rtl/control\_unit.v`)
 
-\- \[ ] CPU top level (`rtl/cpu\_top.v`)
+- \[ ] CPU top level (`rtl/cpu\_top.v`)
 
-\- \[ ] Full CPU testbench (`tb/cpu\_tb.v`)
+- \[ ] Full CPU testbench (`tb/cpu\_tb.v`)
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -76,7 +76,7 @@ verilog-8bit-cpu/
 
 
 
-\## Tools
+## Tools
 
 
 
@@ -84,7 +84,7 @@ Examples below use \[Icarus Verilog](https://steveicarus.github.io/iverilog/) an
 
 
 
-\## Running Simulations
+## Running Simulations
 
 
 
@@ -94,7 +94,7 @@ Run these commands from the repository root. Each testbench is compiled together
 
 ```bash
 
-\# ALU
+# ALU
 
 iverilog -o simulation/alu\_tb.vvp tb/alu\_tb.v rtl/alu.v
 
@@ -102,7 +102,7 @@ vvp simulation/alu\_tb.vvp
 
 
 
-\# Register file
+# Register file
 
 iverilog -o simulation/register\_file\_tb.vvp tb/register\_file\_tb.v rtl/register\_file.v
 
@@ -110,7 +110,7 @@ vvp simulation/register\_file\_tb.vvp
 
 
 
-\# Full CPU
+# Full CPU
 
 iverilog -o simulation/cpu\_tb.vvp tb/cpu\_tb.v rtl/\*.v
 
@@ -136,17 +136,17 @@ Simulation outputs (`\*.vvp`, `\*.vcd`, `\*.fst`, `\*.out`, `\*.log`) are ignore
 
 
 
-\## Documentation
+## Documentation
 
 
 
-\- \[Architecture](docs/architecture.md): block diagram, datapath and instruction set
+- \[Architecture](docs/architecture.md): block diagram, datapath and instruction set
 
-\- \[Design decisions](docs/design\_decisions.md): the reasoning behind key design choices
+- \[Design decisions](docs/design\_decisions.md): the reasoning behind key design choices
 
 
 
-\## AI Usage
+## AI Usage
 
 
 
@@ -154,11 +154,11 @@ AI assistance used during this project is recorded in \[ai-usage-log.md](ai-usag
 
 
 
-\## Author
+## Author
 
 
 
-<your name here>
+<Akasha Withanage>
 
 
 

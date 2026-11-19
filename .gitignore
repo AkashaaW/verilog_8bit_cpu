@@ -1,0 +1,6 @@
+# Simulation outputs
+*.vvp
+*.vcd
+*.fst
+*.out
+*.log
